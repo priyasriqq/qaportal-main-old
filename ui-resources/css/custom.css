@@ -1,0 +1,53 @@
+#dataTable_filter, #dataTable2_filter{
+  float: right;
+}
+
+.dataTables_filter{
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
+
+.sidebar-heading{
+  font-size: 16px !important;
+  color: white !important;
+
+}
+
+/* table{
+  margin: 0 auto;
+  width: 100%;
+  clear: both;
+  border-collapse: collapse;
+  table-layout: fixed; // ***********add this
+  word-wrap:break-word; // ***********and this
+} */
+
+/*th, td{
+  width: 50px !important;
+}*/
+
+.dataTables_wrapper {
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+
+@media (min-width: 576px) {
+  #executionModel .modal-dialog {
+    max-width: 620px;
+  }
+}
+.dataTables_filter{
+  width: 50%;
+  float: right;
+}
+
+#detailedTestCases .modal-dialog{
+  width: 1000px;
+  max-width: 1000px;
+}
